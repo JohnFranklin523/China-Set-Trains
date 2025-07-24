@@ -9,43 +9,43 @@ switch (FEAT_TRAINS, SELF, switch_cr200jsg_name, getbits(extra_callback_info1, 0
 
 
 // Purchase
-spriteset (spriteset_cr200jsg_electric_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){
+spriteset (spriteset_cr200jsg_electric_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){
     template_purchase("multipower-mu/cr200jsg","cr200jsg-mc-electric-up")
 }
-spriteset (spriteset_cr200jsg_diesel_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){
+spriteset (spriteset_cr200jsg_diesel_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){
     template_purchase("multipower-mu/cr200jsg","cr200jsg-mc-diesel")
 }
 // 
 
-spriteset (spriteset_cr200jsg_mc_electric_front_up, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_mc_electric_front_up, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("multipower-mu/cr200jsg", "cr200jsg-mc-electric-up")
 }
-spriteset (spriteset_cr200jsg_mc_electric_front_down, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_mc_electric_front_down, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("multipower-mu/cr200jsg", "cr200jsg-mc-electric-up")
 }
-spriteset (spriteset_cr200jsg_m_diesel_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_m_diesel_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("multipower-mu/cr200jsg", "cr200jsg-m-diesel")
 }
-spriteset (spriteset_cr200jsg_mc_diesel_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_mc_diesel_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("multipower-mu/cr200jsg", "cr200jsg-mc-diesel")
 }
-spriteset (spriteset_cr200jsg_mc_diesel_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_mc_diesel_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("multipower-mu/cr200jsg", "cr200jsg-mc-diesel")
 }
-spriteset (spriteset_cr200jsg_mc_electric_reversed_up, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_mc_electric_reversed_up, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("multipower-mu/cr200jsg", "cr200jsg-mc-electric-up")
 }
-spriteset (spriteset_cr200jsg_mc_electric_reversed_down, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_mc_electric_reversed_down, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("multipower-mu/cr200jsg", "cr200jsg-mc-electric-down")
 }
-spriteset (spriteset_cr200jsg_m_diesel_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_m_diesel_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("multipower-mu/cr200jsg", "cr200jsg-m-diesel")
 }
 
-spriteset (spriteset_cr200jsg_t_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_t_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("multipower-mu/cr200jsg", "cr200jsg-t")
 }
-spriteset (spriteset_cr200jsg_t_middle_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jsg_t_middle_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("multipower-mu/cr200jsg", "cr200jsg-t")
 }
 

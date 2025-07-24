@@ -7,12 +7,12 @@ switch (FEAT_TRAINS, SELF, switch_rz22_name, getbits(extra_callback_info1, 0, 8)
 
 // Graphics
 
- spriteset (spriteset_rz22_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+ spriteset (spriteset_rz22_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
      template_purchase ("coaches", "22/rz22")
  }
 
  // Vehicle
- spriteset (spriteset_rz22_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+ spriteset (spriteset_rz22_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
      template_standard ("coaches", "22/rz22")
  }
 

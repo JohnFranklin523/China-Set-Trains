@@ -8,34 +8,34 @@ switch (FEAT_TRAINS, SELF, switch_cr400afae_name, getbits(extra_callback_info1, 
 
 
 // Vehicle
-spriteset (spriteset_cr400afae_middle_m, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_m, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400af-z", "cr400af-ae-m")
 }
-spriteset (spriteset_cr400afae_middle_m_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_m_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400af-z", "cr400af-ae-m-r")
 }
-spriteset (spriteset_cr400afae_middle_m_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_m_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400af-z", "cr400af-ae-m")
 }
-spriteset (spriteset_cr400afae_middle_m_r_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_m_r_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400af-z", "cr400af-ae-m-r")
 }
-spriteset (spriteset_cr400afae_middle_m_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_m_c, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400af-z", "cr400af-ae-m-c")
 }
-spriteset (spriteset_cr400afae_middle_m_c_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_m_c_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400af-z", "cr400af-ae-m-c-r")
 }
-spriteset (spriteset_cr400afae_middle_tp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_tp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400af-z", "cr400af-ae-tp")
 }
-spriteset (spriteset_cr400afae_middle_tp_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_tp_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400af-z", "cr400af-ae-tp-r")
 }
-spriteset (spriteset_cr400afae_middle_tp_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_tp_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400af-z", "cr400af-ae-tp")
 }
-spriteset (spriteset_cr400afae_middle_tp_r_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400afae_middle_tp_r_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400af-z", "cr400af-ae-tp-r")
 }
 

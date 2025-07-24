@@ -2,21 +2,21 @@
 
 // Graphics
 // Purchase
-spriteset (spriteset_syz25khd_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syz25khd_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "25k/srz25khd-blue-red")
 }
 
 
-spriteset (spriteset_syz25khd_blue_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syz25khd_blue_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/syz25khd-blue-red")
 }
-spriteset (spriteset_syz25khd_plugdoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syz25khd_plugdoor, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/syz25khd-saila")
 }
-spriteset (spriteset_syz25khd_shenyang, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syz25khd_shenyang, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/syz25khd-shenyang")
 }
-spriteset (spriteset_syz25khd_lakeblue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syz25khd_lakeblue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/syz25khd-lakeblue")
 }
 switch (FEAT_TRAINS, SELF, switch_syz25khd_articulated_part, extra_callback_info1) {

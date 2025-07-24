@@ -3,18 +3,18 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_x2000_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_x2000_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu", "x2000-m")
 }
 
 // Vehicle
-spriteset (spriteset_x2000_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_x2000_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "x2000-m")
 }
-spriteset (spriteset_x2000_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_x2000_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "x2000-t")
 }
-spriteset (spriteset_x2000_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_x2000_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu", "x2000-tc")
 }
 

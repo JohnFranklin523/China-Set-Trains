@@ -8,12 +8,12 @@ switch (FEAT_TRAINS, SELF, switch_ss6b_name, getbits(extra_callback_info1, 0, 8)
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_ss6b_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss6b_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-electric","ss6b")
 }
 
 // Vehicle
-spriteset (spriteset_ss6b_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss6b_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric","ss6b")
 }
 

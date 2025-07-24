@@ -8,21 +8,21 @@ switch (FEAT_TRAINS, SELF, switch_rw19k_name, getbits(extra_callback_info1, 0, 8
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_rw19k_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rw19k_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches/25k","rw19k-blue-plugdoor")
 }
 
 // Vehicle
-/* spriteset (spriteset_rw19k_blue_folddoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+/* spriteset (spriteset_rw19k_blue_folddoor, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "rw19k-blue-folddoor")
 }
-spriteset (spriteset_rw19k_red_folddoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rw19k_red_folddoor, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "rw19k-red-folddoor")
 } */
-spriteset (spriteset_rw19k_blue_plugdoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rw19k_blue_plugdoor, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25k", "rw19k-blue-plugdoor")
 }
-spriteset (spriteset_rw19k_red_plugdoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rw19k_red_plugdoor, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25k", "rw19k-red-plugdoor")
 }
 

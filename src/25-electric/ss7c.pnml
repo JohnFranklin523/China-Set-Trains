@@ -8,15 +8,15 @@ switch (FEAT_TRAINS, SELF, switch_ss7c_name, getbits(extra_callback_info1, 0, 8)
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_ss7c_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss7c_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-electric","ss7c")
 }
 
 // Vehicle
-spriteset (spriteset_ss7c_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss7c_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric","ss7c")
 }
-spriteset (spriteset_ss7c_banana, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss7c_banana, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss7c-banana")
 }
 

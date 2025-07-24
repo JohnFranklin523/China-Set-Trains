@@ -3,21 +3,21 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_sca25khd_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sca25khd_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "25k/sca25khd-blue-red")
 }
 
 // Vehicle
-spriteset (spriteset_sca25khd_blue_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sca25khd_blue_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/sca25khd-blue-red")
 }
-spriteset (spriteset_sca25khd_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sca25khd_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/sca25khd-green")
 }
-spriteset (spriteset_sca25khd_shenyang, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sca25khd_shenyang, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/sca25khd-shenyang")
 }
-spriteset (spriteset_sca25khd_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sca25khd_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/sca25khd-red")
 }
 

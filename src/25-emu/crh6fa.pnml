@@ -4,122 +4,122 @@ switch (FEAT_TRAINS, SELF, switch_crh6fa_name, getbits(extra_callback_info1, 0, 
     return CB_RESULT_NO_TEXT;
 }
 // Purchase Menu
-spriteset (spriteset_crh6fa_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/crh6fa", "crh6f-a-c-changzhutan")
 }
 
 // Vehicle
-spriteset (spriteset_crh6fa_changzhutan_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_changzhutan_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-changzhutan")
 }
-spriteset (spriteset_crh6fa_changzhutan_front2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_changzhutan_front2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-changzhutan2")
 }
-spriteset (spriteset_crh6fa_changzhutan_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_changzhutan_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-changzhutan")
 }
-spriteset (spriteset_crh6fa_changzhutan_cab2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_changzhutan_cab2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-changzhutan2")
 }
-spriteset (spriteset_crh6fa_changzhutan_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_changzhutan_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t-changzhutan")
 }
-spriteset (spriteset_crh6fa_changzhutan2_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_changzhutan2_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t2-changzhutan")
 }
 
-spriteset (spriteset_crh6fa_huaimi_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_huaimi_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-huaimi")
 }
-spriteset (spriteset_crh6fa_huaimi_front2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_huaimi_front2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-huaimi2")
 }
-spriteset (spriteset_crh6fa_huaimi_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_huaimi_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-huaimi")
 }
-spriteset (spriteset_crh6fa_huaimi_cab2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_huaimi_cab2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-huaimi2")
 }
-spriteset (spriteset_crh6fa_huaimi_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_huaimi_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t-huaimi")
 }
-spriteset (spriteset_crh6fa_huaimi2_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_huaimi2_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t2-huaimi")
 }
 
-spriteset (spriteset_crh6fa_jintai_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_jintai_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-jintai")
 }
-spriteset (spriteset_crh6fa_jintai_front2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_jintai_front2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-jintai2")
 }
-spriteset (spriteset_crh6fa_jintai_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_jintai_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-jintai")
 }
-spriteset (spriteset_crh6fa_jintai_cab2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_jintai_cab2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-jintai2")
 }
-spriteset (spriteset_crh6fa_jintai_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_jintai_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t-jintai")
 }
-spriteset (spriteset_crh6fa_jintai2_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_jintai2_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t2-jintai")
 }
 
-spriteset (spriteset_crh6fa_lianyungang_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_lianyungang_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-lianyungang")
 }
-spriteset (spriteset_crh6fa_lianyungang_front2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_lianyungang_front2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-lianyungang2")
 }
-spriteset (spriteset_crh6fa_lianyungang_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_lianyungang_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-lianyungang")
 }
-spriteset (spriteset_crh6fa_lianyungang_cab2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_lianyungang_cab2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-lianyungang2")
 }
-spriteset (spriteset_crh6fa_lianyungang_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_lianyungang_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t-lianyungang")
 }
-spriteset (spriteset_crh6fa_lianyungang2_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_lianyungang2_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t2-lianyungang")
 }
 
-spriteset (spriteset_crh6fa_xiaoyong_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_xiaoyong_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-xiaoyong")
 }
-spriteset (spriteset_crh6fa_xiaoyong_front2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_xiaoyong_front2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-xiaoyong2")
 }
-spriteset (spriteset_crh6fa_xiaoyong_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_xiaoyong_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-xiaoyong")
 }
-spriteset (spriteset_crh6fa_xiaoyong_cab2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_xiaoyong_cab2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-xiaoyong2")
 }
-spriteset (spriteset_crh6fa_xiaoyong_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_xiaoyong_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t-xiaoyong")
 }
-spriteset (spriteset_crh6fa_xiaoyong2_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_xiaoyong2_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t2-xiaoyong")
 }
 
-spriteset (spriteset_crh6fa_yangquan_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_yangquan_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-yangquan")
 }
-spriteset (spriteset_crh6fa_yangquan_front2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_yangquan_front2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-c-yangquan2")
 }
-spriteset (spriteset_crh6fa_yangquan_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_yangquan_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-yangquan")
 }
-spriteset (spriteset_crh6fa_yangquan_cab2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_yangquan_cab2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh6fa", "crh6f-a-c-yangquan2")
 }
-spriteset (spriteset_crh6fa_yangquan_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_yangquan_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t-yangquan")
 }
-spriteset (spriteset_crh6fa_yangquan2_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh6fa_yangquan2_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh6fa", "crh6f-a-t2-yangquan")
 }
 

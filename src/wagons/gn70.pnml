@@ -8,15 +8,15 @@ switch (FEAT_TRAINS, SELF, switch_gn70_name, getbits(extra_callback_info1, 0, 8)
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_gn70_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_gn70_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "gn70")
 }
 
 // Vehicle
-spriteset (spriteset_gn70_black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_gn70_black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "gn70")
 }
-spriteset (spriteset_gn70_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_gn70_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "gn70-red")
 }
 

@@ -6,52 +6,52 @@ switch (FEAT_TRAINS, SELF, switch_crh5a_name, getbits(extra_callback_info1, 0, 8
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_crh5a_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/crh5a", "crh5a-mc")
 }
 
 // Vehicle
-spriteset (spriteset_crh5a_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh5a", "crh5a-mc")
 }
-spriteset (spriteset_crh5a_middle_m, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_middle_m, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh5a", "crh5a-m")
 }
-spriteset (spriteset_crh5a_middle_tp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_middle_tp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh5a", "crh5a-tp")
 }
-spriteset (spriteset_crh5a_middle_tp_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_middle_tp_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh5a", "crh5a-tp")
 }
-spriteset (spriteset_crh5a_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh5a", "crh5a-mc")
 }
-spriteset (spriteset_crh5a_cab_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_cab_c, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh5a", "crh5a-mc-c")
 }
-spriteset (spriteset_crh5a_cab_c_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_cab_c_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh5a", "crh5a-mc-c")
 }
 
-spriteset (spriteset_crh5a_front_prototype, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_front_prototype, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh5a", "crh5a-mc-prototype")
 }
-spriteset (spriteset_crh5a_middle_m_prototype, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_middle_m_prototype, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh5a", "crh5a-m-prototype")
 }
-spriteset (spriteset_crh5a_middle_tp_prototype, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_middle_tp_prototype, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh5a", "crh5a-tp-prototype")
 }
-spriteset (spriteset_crh5a_middle_tp_r_prototype, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_middle_tp_r_prototype, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh5a", "crh5a-tp-prototype")
 }
-spriteset (spriteset_crh5a_cab_prototype, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_cab_prototype, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh5a", "crh5a-mc-prototype")
 }
-spriteset (spriteset_crh5a_cab_c_prototype, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_cab_c_prototype, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh5a", "crh5a-mc-c-prototype")
 }
-spriteset (spriteset_crh5a_cab_c_r_prototype, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh5a_cab_c_r_prototype, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh5a", "crh5a-mc-c-prototype")
 }
 

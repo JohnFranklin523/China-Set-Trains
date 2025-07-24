@@ -4,27 +4,27 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_djf1_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf1_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/djf1", "djf1-mc")
 }
 
 // Vehicle
-spriteset (spriteset_djf1_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf1_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf1", "djf1-mc")
 }
-spriteset (spriteset_djf1_middle_m, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf1_middle_m, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf1", "djf1-m")
 }
-spriteset (spriteset_djf1_middle_m_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf1_middle_m_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/djf1", "djf1-m")
 }
-spriteset (spriteset_djf1_middle_tp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf1_middle_tp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf1", "djf1-tp")
 }
-spriteset (spriteset_djf1_middle_tp_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf1_middle_tp_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/djf1", "djf1-tp")
 }
-spriteset (spriteset_djf1_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf1_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/djf1", "djf1-mc")
 }
 

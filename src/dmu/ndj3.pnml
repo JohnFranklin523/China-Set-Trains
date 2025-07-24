@@ -3,21 +3,21 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_ndj3_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ndj3_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("dmu", "ndj3-m")
 }
 
 // Vehicle
-spriteset (spriteset_ndj3_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ndj3_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "ndj3-m")
 }
-spriteset (spriteset_ndj3_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ndj3_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "ndj3-25dt")
 }
-spriteset (spriteset_ndj3_cafe, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ndj3_cafe, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "ndj3-ca25dt")
 }
-spriteset (spriteset_ndj3_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ndj3_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("dmu", "ndj3-m")
 }
 

@@ -3,12 +3,12 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_ca25c_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ca25c_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches/25c", "ca25c")
 }
 
 // Vehicle
-spriteset (spriteset_ca25c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ca25c, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25c", "ca25c")
 }
 

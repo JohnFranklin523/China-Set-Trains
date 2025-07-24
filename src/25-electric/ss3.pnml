@@ -3,27 +3,27 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_ss3_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss3_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-electric", "ss3")
 }
 
 // Vehicle
-spriteset (spriteset_ss3_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss3_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss3")
 }
-spriteset (spriteset_ss3_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss3_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss3-blue")
 }
-spriteset (spriteset_ss3_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss3_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss3-red")
 }
-spriteset (spriteset_ss3_grassgreen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss3_grassgreen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss3-grassgreen")
 }
-spriteset (spriteset_ss3_fuzhou, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss3_fuzhou, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss3-fuzhou")
 }
-spriteset (spriteset_ss3_shenhua, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss3_shenhua, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss3-shenhua")
 }
 

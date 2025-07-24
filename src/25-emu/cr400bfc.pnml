@@ -6,61 +6,61 @@ switch (FEAT_TRAINS, SELF, switch_cr400bfc_name, getbits(extra_callback_info1, 0
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_cr400bfc_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/cr400bf-c", "cr400bf-c-tc-winterolympic01")
 }
 
 // Vehicle
-spriteset (spriteset_cr400bfc_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-tc")
 }
-spriteset (spriteset_cr400bfc_middle_m, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_middle_m, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-m")
 }
-spriteset (spriteset_cr400bfc_middle_tp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_middle_tp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-tp")
 }
-spriteset (spriteset_cr400bfc_middle_tp_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_middle_tp_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400bf-c", "cr400bf-c-tp")
 }
-spriteset (spriteset_cr400bfc_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400bf-c", "cr400bf-c-tc")
 }
-spriteset (spriteset_cr400bfc_cab_reconect, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_cab_reconect, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400bf-c", "cr400bf-c-tc-c")
 }
-spriteset (spriteset_cr400bfc_cab_reconect_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_cab_reconect_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-tc-c")
 }
 
-spriteset (spriteset_cr400bfc_winterolympic_tc_01, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_tc_01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-tc-winterolympic01")
 }
-spriteset (spriteset_cr400bfc_winterolympic_tc_01_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_tc_01_c, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-tc-winterolympic01-c")
 }
-spriteset (spriteset_cr400bfc_winterolympic_m_02, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_m_02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-m-winterolympic02")
 }
-spriteset (spriteset_cr400bfc_winterolympic_tp_03, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_tp_03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-tp-winterolympic03")
 }
-spriteset (spriteset_cr400bfc_winterolympic_m_c_04, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_m_c_04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cr400bf-c", "cr400bf-c-m-c-winterolympic04")
 }
-spriteset (spriteset_cr400bfc_winterolympic_m_c_05, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_m_c_05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400bf-c", "cr400bf-c-m-c-winterolympic04")
 }
-spriteset (spriteset_cr400bfc_winterolympic_tp_06, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_tp_06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400bf-c", "cr400bf-c-tp-winterolympic03")
 }
-spriteset (spriteset_cr400bfc_winterolympic_m_07, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_m_07, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400bf-c", "cr400bf-c-m-winterolympic02")
 }
-spriteset (spriteset_cr400bfc_winterolympic_tc_08, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_tc_08, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400bf-c", "cr400bf-c-tc-winterolympic01")
 }
-spriteset (spriteset_cr400bfc_winterolympic_tc_08_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr400bfc_winterolympic_tc_08_c, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cr400bf-c", "cr400bf-c-tc-winterolympic01-c")
 }
 

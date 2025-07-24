@@ -8,30 +8,30 @@ switch (FEAT_TRAINS, SELF, switch_crh3c_name, getbits(extra_callback_info1, 0, 8
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_crh3c_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh3c_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu", "crh3c-c")
 }
 
 // Vehicle
-spriteset (spriteset_crh3c_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh3c_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "crh3c-c")
 }
-spriteset (spriteset_crh3c_middle_m, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh3c_middle_m, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "crh3c-m")
 }
-spriteset (spriteset_crh3c_middle_p, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh3c_middle_p, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu", "crh3c-tp")
 }
-spriteset (spriteset_crh3c_middle_p_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh3c_middle_p_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "crh3c-tp")
 }
-spriteset (spriteset_crh3c_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh3c_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu", "crh3c-c")
 }
-spriteset (spriteset_crh3c_cab_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh3c_cab_c, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu", "crh3c-c-c")
 }
-spriteset (spriteset_crh3c_cab_c_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh3c_cab_c_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "crh3c-c-c")
 }
 

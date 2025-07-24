@@ -3,39 +3,39 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_ss4_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-electric", "ss4-front")
 }
 
 // Vehicle
-spriteset (spriteset_ss4_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-front")
 }
-spriteset (spriteset_ss4_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-back")
 }
-spriteset (spriteset_ss4_alternative_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_alternative_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-alternative-front")
 }
-spriteset (spriteset_ss4_alternative_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_alternative_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-alternative-back")
 }
-spriteset (spriteset_ss4_factory_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_factory_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-factory-front")
 }
-spriteset (spriteset_ss4_factory_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_factory_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-factory-back")
 }
-spriteset (spriteset_ss4_white_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_white_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-white-front")
 }
-spriteset (spriteset_ss4_white_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_white_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-white-back")
 }
-spriteset (spriteset_ss4_blueroof_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_blueroof_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-blueroof-front")
 }
-spriteset (spriteset_ss4_blueroof_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss4_blueroof_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss4-blueroof-back")
 }
 

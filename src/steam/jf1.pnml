@@ -2,15 +2,15 @@
 
 // Graphics
 
-spriteset (spriteset_jf1_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jf1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase_xl ("steam/extralength", "jf1")
 }
 
-spriteset (spriteset_jf1_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jf1_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("steam", "jf1-front")
 }
 
-spriteset (spriteset_jf1_tender, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jf1_tender, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("steam", "jf1-tender")
 }
 

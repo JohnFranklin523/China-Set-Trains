@@ -6,21 +6,21 @@ switch (FEAT_TRAINS, SELF, switch_p1_name, getbits(extra_callback_info1, 0, 8) =
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_p1_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p1_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons/p1", "p1-black")
 }
 
 // Vehicle
-spriteset (spriteset_p1_black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p1_black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/p1", "p1-black")
 }
-/* spriteset (spriteset_p1_rustyred, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+/* spriteset (spriteset_p1_rustyred, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "p1-rustyred")
 }
-spriteset (spriteset_p1_brown, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p1_brown, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "p1-brown")
 }
-spriteset (spriteset_p1_rescue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p1_rescue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "p1-rescue")
 } */
 

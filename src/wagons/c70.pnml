@@ -8,27 +8,27 @@ switch (FEAT_TRAINS, SELF, switch_c70_name, getbits(extra_callback_info1, 0, 8) 
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_c70_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c70_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "c70")
 }
 
 // Vehicle
-spriteset (spriteset_c70_black_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c70_black_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c70")
 }
-spriteset (spriteset_c70_black_coal_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c70_black_coal_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c70-coal-half")
 }
-spriteset (spriteset_c70_black_coal_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c70_black_coal_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c70-coal-full")
 }
-spriteset (spriteset_c70_black_container_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c70_black_container_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c70-container-half")
 }
-spriteset (spriteset_c70_black_container_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c70_black_container_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c70-container-full")
 }
-spriteset (spriteset_c70_black_cover, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c70_black_cover, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c70-cover")
 }
 

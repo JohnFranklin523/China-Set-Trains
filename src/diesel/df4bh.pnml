@@ -8,19 +8,19 @@ switch (FEAT_TRAINS, SELF, switch_df4bh_name, getbits(extra_callback_info1, 0, 8
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_df4bh_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4bh_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "df4b")
 }
 
-spriteset (spriteset_df4bnb_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4bnb_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "df4bnb")
 }
 
 //Adds Vehicle
-spriteset (spriteset_df4bnb, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4bnb, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4bnb")
 }
-spriteset (spriteset_df4bnb_reverse, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4bnb_reverse, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4bnb-reverse")
 }
 

@@ -2,23 +2,23 @@
 
 // Graphics
 
-spriteset (spriteset_df_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "df-b")
 }
 
-spriteset (spriteset_df_standard, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df_standard, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df-b")
 }
 
-spriteset (spriteset_df_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df")
 }
 
-spriteset (spriteset_df_whiteline_standard, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df_whiteline_standard, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df-whiteline-b")
 }
 
-spriteset (spriteset_df_whiteline_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df_whiteline_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df-whiteline")
 }
 

@@ -22,52 +22,52 @@
   "sprites": [
     {
       "angle": 0,
-      "width": 36,
-      "height": 166,
+      "width": 9,
+      "height": 42,
       "flip": true,
       "render_elevation": 33
     },
     {
       "angle": 45,
-      "width": 120,
-      "height": 116,
+      "width": 30,
+      "height": 29,
       "flip": true
     },
     {
       "angle": 90,
-      "width": 192,
-      "height": 80,
+      "width": 48,
+      "height": 20,
       "flip": true
     },
     {
       "angle": 135,
-      "width": 120,
-      "height": 116,
+      "width": 30,
+      "height": 29,
       "flip": true
     },
     {
       "angle": 180,
-      "width": 36,
-      "height": 166,
+      "width": 9,
+      "height": 42,
       "flip": true,
       "render_elevation": 33
     },
     {
       "angle": 225,
-      "width": 120,
-      "height": 116,
+      "width": 30,
+      "height": 29,
       "flip": true
     },
     {
       "angle": 270,
-      "width": 192,
-      "height": 80,
+      "width": 48,
+      "height": 20,
       "flip": true
     },
     {
       "angle": 315,
-      "width": 120,
-      "height": 116,
+      "width": 30,
+      "height": 29,
       "flip": true
     }
   ]

@@ -3,18 +3,18 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_djj2_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djj2_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/djj2", "djj2-m")
 }
 
 // Vehicle
-spriteset (spriteset_djj2_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djj2_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djj2", "djj2-m")
 }
-spriteset (spriteset_djj2_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djj2_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djj2", "djj2-t")
 }
-spriteset (spriteset_djj2_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djj2_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("25-emu/djj2", "djj2-m")
 }
 

@@ -8,21 +8,21 @@ switch (FEAT_TRAINS, SELF, switch_p62n_name, getbits(extra_callback_info1, 0, 8)
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_p62n_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p62n_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "p62n-black")
 }
 
 // Vehicle
-spriteset (spriteset_p62n_black, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p62n_black, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "p62n-black")
 }
-spriteset (spriteset_p62n_rustyred, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p62n_rustyred, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "p62n-rustyred")
 }
-spriteset (spriteset_p62n_brown, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p62n_brown, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "p62n-brown")
 }
-spriteset (spriteset_p62n_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p62n_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "p62n-blue")
 }
 

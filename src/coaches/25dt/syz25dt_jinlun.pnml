@@ -8,15 +8,15 @@ switch (FEAT_TRAINS, SELF, switch_syz25dt_jinlun_name, getbits(extra_callback_in
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_syz25dt_jinlun_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syz25dt_jinlun_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches","syz25dt-jinlun-2001")
 }
 
 // Vehicle
-spriteset (spriteset_syz25dt_jinlun_2001, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syz25dt_jinlun_2001, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "syz25dt-jinlun-2001")
 }
-spriteset (spriteset_syz25dt_jinlun_2010, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syz25dt_jinlun_2010, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "syz25dt-jinlun-2010")
 }
 

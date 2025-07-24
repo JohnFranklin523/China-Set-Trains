@@ -6,12 +6,12 @@ switch (FEAT_TRAINS, SELF, switch_25sm_name, getbits(extra_callback_info1, 0, 8)
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_yz25sm_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yz25sm_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches/25", "yz25-sm")
 }
 
 // Vehicle
-spriteset (spriteset_yz25sm_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yz25sm_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25", "yz25-sm")
 }
 

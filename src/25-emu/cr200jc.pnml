@@ -8,30 +8,30 @@ switch (FEAT_TRAINS, SELF, switch_cr200jc_name, getbits(extra_callback_info1, 0,
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_cr200jc_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jc_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu", "cr200jc-m")
 }
 
 // Vehicle
-spriteset (spriteset_cr200jc_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jc_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "cr200jc-m")
 }
-spriteset (spriteset_cr200jc_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jc_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "cr200jc-t")
 }
-spriteset (spriteset_cr200jc_middle_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jc_middle_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu", "cr200jc-t")
 }
-spriteset (spriteset_cr200jc_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jc_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "cr200jc-tc")
 }
-spriteset (spriteset_cr200jc_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jc_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("25-emu", "cr200jc-m")
 }
-spriteset (spriteset_cr200jc_cab_reconect, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jc_cab_reconect, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu", "cr200jc-tc-c")
 }
-spriteset (spriteset_cr200jc_cab_reconect_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cr200jc_cab_reconect_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu", "cr200jc-tc-c")
 }
 

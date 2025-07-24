@@ -1,26 +1,26 @@
 // Begin CJ6
 // Purchase Menu
-spriteset (spriteset_cj6_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cj6_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/cj6", "cj6-c")
 }
 
 // Vehicle
-spriteset (spriteset_cj6_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cj6_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cj6", "cj6-c")
 }
-spriteset (spriteset_cj6_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cj6_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cj6", "cj6-c")
 }
-spriteset (spriteset_cj6_front_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cj6_front_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cj6", "cj6-c-2")
 }
-spriteset (spriteset_cj6_cab_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cj6_cab_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cj6", "cj6-c-2")
 }
-spriteset (spriteset_cj6_middle_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cj6_middle_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/cj6", "cj6-tp-b")
 }
-spriteset (spriteset_cj6_middle_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_cj6_middle_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/cj6", "cj6-tp-f")
 }
 switch (FEAT_TRAINS, SELF, switch_cj6_articulated_part, extra_callback_info1) {

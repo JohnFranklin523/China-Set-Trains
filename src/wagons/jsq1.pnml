@@ -6,69 +6,69 @@ switch (FEAT_TRAINS, SELF, switch_jsq1_name, getbits(extra_callback_info1, 0, 8)
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_jsq1_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "jsq1-1-empty")
 }
 
 // Vehicle
-spriteset (spriteset_jsq1_1_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_1_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-1-empty")
 }
-spriteset (spriteset_jsq1_1_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_1_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-1-half")
 }
-spriteset (spriteset_jsq1_1_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_1_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-1-full")
 }
-spriteset (spriteset_jsq1_2_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_2_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-2-red")
 }
-spriteset (spriteset_jsq1_2_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_2_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-2-blue")
 }
-spriteset (spriteset_jsq1_3_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_3_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-3-red")
 }
-spriteset (spriteset_jsq1_3_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_3_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-3-blue")
 }
-spriteset (spriteset_jsq1_4_red_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_4_red_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-4-red-empty")
 }
-spriteset (spriteset_jsq1_4_red_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_4_red_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-4-red-half")
 }
-spriteset (spriteset_jsq1_4_red_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_4_red_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-4-red-full")
 }
-spriteset (spriteset_jsq1_4_blue_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_4_blue_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-4-blue-empty")
 }
-spriteset (spriteset_jsq1_4_blue_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_4_blue_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-4-blue-half")
 }
-spriteset (spriteset_jsq1_4_blue_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_4_blue_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-4-blue-full")
 }
-spriteset (spriteset_jsq1_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-5")
 }
-spriteset (spriteset_jsq1_6_red_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_6_red_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-6-red-empty")
 }
-spriteset (spriteset_jsq1_6_red_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_6_red_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-6-red-half")
 }
-spriteset (spriteset_jsq1_6_red_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_6_red_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-6-red-full")
 }
-spriteset (spriteset_jsq1_6_blue_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_6_blue_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-6-blue-empty")
 }
-spriteset (spriteset_jsq1_6_blue_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_6_blue_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-6-blue-half")
 }
-spriteset (spriteset_jsq1_6_blue_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_jsq1_6_blue_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "jsq1-6-blue-full")
 }
 

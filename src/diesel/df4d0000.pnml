@@ -6,18 +6,18 @@ switch (FEAT_TRAINS, SELF, switch_df4d0000_name, getbits(extra_callback_info1, 0
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_df4d0000_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4d0000_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "df4d-0000")
 }
 
 // Vehicle
-spriteset (spriteset_df4d0000_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4d0000_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4d-0000")
 }
-spriteset (spriteset_df4d0000_xihu, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4d0000_xihu, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4d-xihu")
 }
-spriteset (spriteset_df4d0000_xihu_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4d0000_xihu_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("diesel", "df4d-xihu")
 }
 

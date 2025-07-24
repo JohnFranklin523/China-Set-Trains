@@ -4,14 +4,14 @@ switch (FEAT_TRAINS, SELF, switch_gh70b_name, getbits(extra_callback_info1, 0, 8
     return CB_RESULT_NO_TEXT;
 }
 
-spriteset (spriteset_gh70b_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_gh70b_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "gh70b")
 }
 
-spriteset (spriteset_gh70b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_gh70b, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "gh70b")
 }
-spriteset (spriteset_gh70b_old, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_gh70b_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "gh70b-old")
 }
 

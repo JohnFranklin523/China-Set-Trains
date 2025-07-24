@@ -8,15 +8,15 @@ switch (FEAT_TRAINS, SELF, switch_n60_name, getbits(extra_callback_info1, 0, 8) 
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_n60_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n60_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "n60")
 }
 
 // Vehicle
-spriteset (spriteset_n60_original_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n60_original_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "n60")
 }
-spriteset (spriteset_n60_original_cover, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n60_original_cover, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "n60-cover")
 }
 

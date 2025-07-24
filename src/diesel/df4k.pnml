@@ -8,56 +8,56 @@ switch (FEAT_TRAINS, SELF, switch_df4k_name, getbits(extra_callback_info1, 0, 8)
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_df4_purchase_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4_purchase_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "df4")
 }
-spriteset (spriteset_df4_purchase_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4_purchase_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "df4-early-orange")
 }
 
 
 // Vehicle
-spriteset (spriteset_df4_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4")
 }
 
-spriteset (spriteset_df4_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4-early-orange")
 }
-spriteset (spriteset_df4b_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4b_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4b")
 }
-spriteset (spriteset_df4b_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4b_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4b-orange")
 }
-spriteset (spriteset_df4_ukraine, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4_ukraine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4-ukraine")
 }
 
-spriteset (spriteset_df4b_dprk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4b_dprk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4b-dprk")
 }
 
 
-spriteset (spriteset_df4bh_laos, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4bh_laos, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4bh-laos")
 }
 
-spriteset (spriteset_df4bh_wujing, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4bh_wujing, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4bh-wujing")
 }
-spriteset (spriteset_df4bk_aging, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4bk_aging, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4bk-aging")
 }
 
-spriteset (spriteset_df4b_jinwen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4b_jinwen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4b-jinwen")
 }
 
-spriteset (spriteset_df4b_shenhua, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4b_shenhua, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4b-shenhua")
 }
-spriteset (spriteset_df4b_guoneng, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df4b_guoneng, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df4b-guoneng")
 }
 

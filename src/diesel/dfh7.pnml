@@ -3,22 +3,22 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_dfh7_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh7_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel","dfh7")
 }
 
 // Vehicle
-spriteset (spriteset_dfh7_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh7_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel","dfh7")
 }
 
 // Purchase Menu
-spriteset (spriteset_dfh7b_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh7b_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel","dfh7b")
 }
 
 // Vehicle
-spriteset (spriteset_dfh7b_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh7b_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel","dfh7b")
 }
 

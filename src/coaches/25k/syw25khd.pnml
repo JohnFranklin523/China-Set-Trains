@@ -3,12 +3,12 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_syw25khd_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syw25khd_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/syw25khd-xian")
 }
 
 // Vehicle
-spriteset (spriteset_syw25khd_blue_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_syw25khd_blue_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/syw25khd-blue-red")
 }
 

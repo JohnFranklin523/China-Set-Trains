@@ -8,18 +8,18 @@ switch (FEAT_TRAINS, SELF, switch_beijing_passenger_name, getbits(extra_callback
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_beijing_passenger_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beijing_passenger_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel/beijing", "beijing-passenger")
 }
 
 //Adds Vehicle
-spriteset (spriteset_beijing_passenger, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beijing_passenger, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel/beijing", "beijing-passenger")
 }
-spriteset (spriteset_beijing_passenger_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beijing_passenger_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel/beijing", "beijing-passenger-green")
 }
-spriteset (spriteset_beijing_passenger_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beijing_passenger_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel/beijing", "beijing-passenger-orange")
 }
 

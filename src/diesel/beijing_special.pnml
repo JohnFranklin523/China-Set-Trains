@@ -8,15 +8,15 @@ switch (FEAT_TRAINS, SELF, switch_beijing_special_name, getbits(extra_callback_i
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_beijing_special_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beijing_special_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel/beijing", "beijing-special")
 }
 
 //Adds Vehicle
-spriteset (spriteset_beijing_special, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beijing_special, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel/beijing", "beijing-special")
 }
-spriteset (spriteset_beijing_special_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beijing_special_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_9 ("diesel/beijing", "beijing-special")
 }
 

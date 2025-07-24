@@ -3,30 +3,30 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_crh380aj_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh380aj_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/crh380aj", "crh380aj-tc")
 }
 
 // Vehicle
-spriteset (spriteset_crh380aj_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh380aj_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh380aj", "crh380aj-tc")
 }
-spriteset (spriteset_crh380aj_middle_m, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh380aj_middle_m, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh380aj", "crh380aj-t")
 }
-spriteset (spriteset_crh380aj_middle_p, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh380aj_middle_p, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh380aj", "crh380aj-tp")
 }
-spriteset (spriteset_crh380aj_middle_p_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh380aj_middle_p_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh380aj", "crh380aj-tp-r")
 }
-spriteset (spriteset_crh380aj_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh380aj_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh380aj", "crh380aj-tc")
 }
-spriteset (spriteset_crh380aj_cab_reconect, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh380aj_cab_reconect, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/crh380aj", "crh380aj-tc-c")
 }
-spriteset (spriteset_crh380aj_cab_reconect_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh380aj_cab_reconect_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh380aj", "crh380aj-tc-c")
 }
 

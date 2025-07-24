@@ -3,15 +3,15 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_ss1_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss1_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-electric", "ss1")
 }
 
 // Vehicle
-spriteset (spriteset_ss1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_ss1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "ss1")
 }
-//spriteset (spriteset_ss1_alternative, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+//spriteset (spriteset_ss1_alternative, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
 //    template_standard ("25-electric", "ss1-alternative")
 //}
 

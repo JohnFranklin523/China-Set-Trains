@@ -2,15 +2,15 @@
 
 // Graphics
 
-spriteset (spriteset_sy_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sy_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase_xl ("steam/extralength", "shangyou-whole")
 }
 
-spriteset (spriteset_sy_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sy_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("steam", "shangyou-front")
 }
 
-spriteset (spriteset_sy_tender, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sy_tender, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("steam", "shangyou-tender")
 }
 

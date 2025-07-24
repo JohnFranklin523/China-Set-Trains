@@ -8,21 +8,21 @@ switch (FEAT_TRAINS, SELF, switch_c64_name, getbits(extra_callback_info1, 0, 8) 
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_c64_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c64_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "c64")
 }
 
 // Vehicle
-spriteset (spriteset_c64_black_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c64_black_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c64")
 }
-spriteset (spriteset_c64_black_coal_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c64_black_coal_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c64-coal-half")
 }
-spriteset (spriteset_c64_black_coal_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c64_black_coal_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c64-coal-full")
 }
-spriteset (spriteset_c64_black_cover, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c64_black_cover, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "c64-cover")
 }
 

@@ -9,15 +9,15 @@ switch (FEAT_TRAINS, SELF, switch_rzxl25t_name, getbits(extra_callback_info1, 0,
 
 // Purchase Menu
 // // Purchase Menu
-spriteset (spriteset_rzxl25t_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rzxl25t_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "25t/rzxl25t-hk")
 }
 
 // Vehicle
-spriteset (spriteset_rzxl25t_hk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rzxl25t_hk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/rzxl25t-hk")
 }
-spriteset (spriteset_rzxl25t_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rzxl25t_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/rzxl25t-green")
 }
 

@@ -6,15 +6,15 @@ switch (FEAT_TRAINS, SELF, switch_fxd1b1000_name, getbits(extra_callback_info1, 
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_fxd1b1000_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_fxd1b1000_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-electric", "fxd1b-1000-front")
 }
 
 // Vehicle
-spriteset (spriteset_fxd1b1000_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_fxd1b1000_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "fxd1b-1000-front")
 }
-spriteset (spriteset_fxd1b1000_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_fxd1b1000_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-electric", "fxd1b-1000-back")
 }
 

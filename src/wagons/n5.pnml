@@ -6,30 +6,30 @@ switch (FEAT_TRAINS, SELF, switch_n5_name, getbits(extra_callback_info1, 0, 8) =
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_n5_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons/n5", "n5")
 }
 
 // Vehicle
-spriteset (spriteset_n5_original_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n5_original_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/n5", "n5")
 }
-spriteset (spriteset_n5_original_bucket_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n5_original_bucket_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/n5", "n5-bucket-half")
 }
-spriteset (spriteset_n5_original_bucket_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n5_original_bucket_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/n5", "n5-bucket-full")
 }
-spriteset (spriteset_n5_original_goods_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n5_original_goods_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/n5", "n5-goods-half")
 }
-spriteset (spriteset_n5_original_goods_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n5_original_goods_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/n5", "n5-goods-full")
 }
-spriteset (spriteset_n5_original_metal_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n5_original_metal_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/n5", "n5-steel-half")
 }
-spriteset (spriteset_n5_original_metal_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_n5_original_metal_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/n5", "n5-steel-full")
 }
 

@@ -8,162 +8,162 @@ switch (FEAT_TRAINS, SELF, switch_nx70a_name, getbits(extra_callback_info1, 0, 8
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_nx70a_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "nx70a")
 }
 
 // Vehicle
-spriteset (spriteset_nx70a_black_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a")
 }
-spriteset (spriteset_nx70a_black_container_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_container_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-container-half")
 }
-spriteset (spriteset_nx70a_black_container_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_container_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-container-full")
 }
-spriteset (spriteset_nx70a_black_cover, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_cover, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-cover")
 }
-spriteset (spriteset_nx70a_black_container_msc_livery_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_container_msc_livery_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-container-msc-livery-half")
 }
-spriteset (spriteset_nx70a_black_container_msc_livery_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_container_msc_livery_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-container-msc-livery-full")
 }
-spriteset (spriteset_nx70a_black_long_container_zih_livery, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_long_container_zih_livery, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-long-container-zih-livery")
 }
-spriteset (spriteset_nx70a_black_long_container_xiangang_livery, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_long_container_xiangang_livery, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-long-container-xiangang-livery")
 }
-spriteset (spriteset_nx70a_black_long_container_evergreen_livery, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_long_container_evergreen_livery, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-long-container-evergreen-livery")
 }
-spriteset (spriteset_nx70a_black_long_container_maersk_livery, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_long_container_maersk_livery, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-long-container-maersk-livery")
 }
-spriteset (spriteset_nx70a_black_long_container_cr_livery, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_long_container_cr_livery, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-long-container-cr-livery")
 }
-spriteset (spriteset_nx70a_black_metal_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_metal_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-metal-empty")
 }
-spriteset (spriteset_nx70a_black_metal_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_metal_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-metal-half")
 }
-spriteset (spriteset_nx70a_black_metal_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_metal_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-metal-full")
 }
-spriteset (spriteset_nx70a_black_tank_container_crct_livery_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_tank_container_crct_livery_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-tank-container-crct-livery-full")
 }
-spriteset (spriteset_nx70a_black_tank_container_crct_livery_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_tank_container_crct_livery_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-tank-container-crct-livery-half")
 }
-spriteset (spriteset_nx70a_black_tank_container_black_livery_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_tank_container_black_livery_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-tank-container-black-livery-full")
 }
-spriteset (spriteset_nx70a_black_tank_container_black_livery_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_tank_container_black_livery_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-tank-container-black-livery-half")
 }
-spriteset (spriteset_nx70a_black_tank_container_shanmei_livery_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_tank_container_shanmei_livery_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-tank-container-shanmei-livery-full")
 }
-spriteset (spriteset_nx70a_black_tank_container_shanmei_livery_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_tank_container_shanmei_livery_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-tank-container-shanmei-livery-half")
 }
-spriteset (spriteset_nx70a_black_tank_container_stg_livery_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_tank_container_stg_livery_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-tank-container-stg-livery-full")
 }
-spriteset (spriteset_nx70a_black_tank_container_stg_livery_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_tank_container_stg_livery_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-tank-container-stg-livery-half")
 }
-spriteset (spriteset_nx70a_black_vehicle_excavator, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_vehicle_excavator, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-vehicle-excavator")
 }
-spriteset (spriteset_nx70a_black_vehicle_bulldozer_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_vehicle_bulldozer_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-vehicle-bulldozer-full")
 }
-spriteset (spriteset_nx70a_black_vehicle_bulldozer_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_vehicle_bulldozer_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-vehicle-bulldozer-half")
 }
-spriteset (spriteset_nx70a_black_vehicle_tractor_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_vehicle_tractor_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-vehicle-tractor-full")
 }
-spriteset (spriteset_nx70a_black_vehicle_tractor_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_vehicle_tractor_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-vehicle-tractor-half")
 }
-spriteset (spriteset_nx70a_black_car_blue_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_blue_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-blue-full")
 }
-spriteset (spriteset_nx70a_black_car_blue_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_blue_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-blue-half")
 }
-spriteset (spriteset_nx70a_black_car_brown_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_brown_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-brown-full")
 }
-spriteset (spriteset_nx70a_black_car_brown_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_brown_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-brown-half")
 }
-spriteset (spriteset_nx70a_black_car_grey_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_grey_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-grey-full")
 }
-spriteset (spriteset_nx70a_black_car_grey_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_grey_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-grey-half")
 }
-spriteset (spriteset_nx70a_black_car_red_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_red_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-red-full")
 }
-spriteset (spriteset_nx70a_black_car_red_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_red_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-red-half")
 }
-spriteset (spriteset_nx70a_black_car_white_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_white_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-white-full")
 }
-spriteset (spriteset_nx70a_black_car_white_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_car_white_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-car-white-half")
 }
-spriteset (spriteset_nx70a_black_open_container_cr_livery_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_cr_livery_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-cr-livery-empty")
 }
-spriteset (spriteset_nx70a_black_open_container_cr_livery_tarpaulin, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_cr_livery_tarpaulin, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-cr-livery-tarpaulin")
 }
-spriteset (spriteset_nx70a_black_open_container_cr_livery_black_bulk_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_cr_livery_black_bulk_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-cr-livery-black-bulk-half")
 }
-spriteset (spriteset_nx70a_black_open_container_cr_livery_black_bulk_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_cr_livery_black_bulk_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-cr-livery-black-bulk-full")
 }
-spriteset (spriteset_nx70a_black_open_container_cr_livery_brown_bulk_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_cr_livery_brown_bulk_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-cr-livery-brown-bulk-half")
 }
-spriteset (spriteset_nx70a_black_open_container_cr_livery_brown_bulk_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_cr_livery_brown_bulk_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-cr-livery-brown-bulk-full")
 }
-spriteset (spriteset_nx70a_black_open_container_cr_livery_white_bulk_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_cr_livery_white_bulk_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-cr-livery-white-bulk-half")
 }
-spriteset (spriteset_nx70a_black_open_container_cr_livery_white_bulk_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_cr_livery_white_bulk_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-cr-livery-white-bulk-full")
 }
-spriteset (spriteset_nx70a_black_open_container_panjiang_livery_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_panjiang_livery_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-panjiang-livery-empty")
 }
-spriteset (spriteset_nx70a_black_open_container_panjiang_livery_black_bulk_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_panjiang_livery_black_bulk_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-panjiang-livery-black-bulk-half")
 }
-spriteset (spriteset_nx70a_black_open_container_panjiang_livery_black_bulk_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_open_container_panjiang_livery_black_bulk_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-open-container-panjiang-livery-black-bulk-full")
 }
-spriteset (spriteset_nx70a_black_wood_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_wood_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-wood-empty")
 }
-spriteset (spriteset_nx70a_black_wood_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_wood_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-wood-half")
 }
-spriteset (spriteset_nx70a_black_wood_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nx70a_black_wood_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "nx70a-wood-full")
 }
 

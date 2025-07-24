@@ -8,12 +8,12 @@ switch (FEAT_TRAINS, SELF, switch_p65_name, getbits(extra_callback_info1, 0, 8) 
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_p65_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p65_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons", "p65")
 }
 
 // Vehicle
-spriteset (spriteset_p65_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_p65_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons", "p65")
 }
 

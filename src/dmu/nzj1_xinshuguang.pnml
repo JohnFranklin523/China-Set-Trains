@@ -3,18 +3,18 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_nzj1_xinshuguang_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nzj1_xinshuguang_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("dmu", "nzj17000")
 }
 
 // Vehicle
-spriteset (spriteset_nzj1_xinshuguang_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nzj1_xinshuguang_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "nzj17000")
 }
-spriteset (spriteset_nzj1_xinshuguang_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nzj1_xinshuguang_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "s25dt-xinshuguang")
 }
-spriteset (spriteset_nzj1_xinshuguang_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nzj1_xinshuguang_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "nzj17000-reverse")
 }
 

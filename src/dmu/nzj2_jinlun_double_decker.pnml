@@ -8,15 +8,15 @@ switch (FEAT_TRAINS, SELF, switch_nzj2_jinlun_2_name, getbits(extra_callback_inf
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_nzj2_jinlun_2_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nzj2_jinlun_2_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("dmu", "nzj2-jinlun-2")
 }
 
 // Vehicle
-spriteset (spriteset_nzj2_jinlun_2_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nzj2_jinlun_2_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "nzj2-jinlun-2")
 }
-spriteset (spriteset_nzj2_jinlun_2_reversed, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nzj2_jinlun_2_reversed, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("dmu", "nzj2-jinlun-2")
 }
 

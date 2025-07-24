@@ -5,12 +5,12 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_kd25sm_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25sm_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches/25", "kd25-sm")
 }
 
 // Vehicle
-spriteset (spriteset_kd25sm_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25sm_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25", "kd25-sm")
 }
 

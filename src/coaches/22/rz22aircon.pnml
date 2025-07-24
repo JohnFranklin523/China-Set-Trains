@@ -8,18 +8,18 @@ switch (FEAT_TRAINS, SELF, switch_rz22aircon_name, getbits(extra_callback_info1,
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_rz22aircon_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz22aircon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "rz22aircon")
 }
 
 // Vehicle
-spriteset (spriteset_rz22aircon_beijing2shanghai, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz22aircon_beijing2shanghai, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "rz22aircon")
 }
-spriteset (spriteset_rz22aircon_alternative, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz22aircon_alternative, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "rz22aircon-alternative")
 }
-spriteset (spriteset_rz22aircon_guangzhou, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz22aircon_guangzhou, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "rz22aircon-guangzhou")
 }
 

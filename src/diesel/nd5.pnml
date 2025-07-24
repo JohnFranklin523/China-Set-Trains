@@ -3,21 +3,21 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_nd5_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nd5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "nd5")
 }
 
 // Vehicle
-spriteset (spriteset_nd5_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nd5_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "nd5")
 }
-spriteset (spriteset_nd5_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nd5_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "nd5-late")
 }
-spriteset (spriteset_nd5_reverse, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nd5_reverse, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "nd5-reverse")
 }
-spriteset (spriteset_nd5_late_reverse, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nd5_late_reverse, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "nd5-late-reverse")
 }
 

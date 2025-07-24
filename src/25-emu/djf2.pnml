@@ -4,40 +4,40 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_djf2_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/djf2", "djf2-c")
 }
 
 // Vehicle
-spriteset (spriteset_djf2_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf2", "djf2-c")
 }
-spriteset (spriteset_djf2_middle_m, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_middle_m, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf2", "djf2-p")
 }
-spriteset (spriteset_djf2_middle_m_r, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_middle_m_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/djf2", "djf2-p")
 }
-spriteset (spriteset_djf2_middle_t, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_middle_t, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf2", "djf2-t")
 }
-spriteset (spriteset_djf2_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/djf2", "djf2-c")
 }
 
-spriteset (spriteset_djf2_front2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_front2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf2", "djf2-c2")
 }
-spriteset (spriteset_djf2_middle_m2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_middle_m2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf2", "djf2-p2")
 }
-spriteset (spriteset_djf2_middle_m_r2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_middle_m_r2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/djf2", "djf2-p2")
 }
-spriteset (spriteset_djf2_middle_t2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_middle_t2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/djf2", "djf2-t2")
 }
-spriteset (spriteset_djf2_cab2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_djf2_cab2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("25-emu/djf2", "djf2-c2")
 }
 

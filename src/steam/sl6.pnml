@@ -2,22 +2,22 @@
 
 // Graphics
 
-spriteset (spriteset_sl6_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sl6_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase_xl ("steam/extralength", "sl6-l")
 }
 
-spriteset (spriteset_sl6_l_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sl6_l_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("steam", "sl6-l-front")
 }
-spriteset (spriteset_sl6_s_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sl6_s_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("steam", "sl6-s-front")
 }
-spriteset (spriteset_sl6_n_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sl6_n_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("steam", "sl6-n-front")
 }
 
 
-spriteset (spriteset_sl6_tender, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_sl6_tender, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("steam", "sl6-tender")
 }
 

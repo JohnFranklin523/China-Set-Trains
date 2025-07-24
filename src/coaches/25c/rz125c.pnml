@@ -3,12 +3,12 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_rz125c_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz125c_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches/25c", "rz125c")
 }
 
 // Vehicle
-spriteset (spriteset_rz125c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz125c, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25c", "rz125c")
 }
 

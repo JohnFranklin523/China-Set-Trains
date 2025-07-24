@@ -3,18 +3,18 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_nc3_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nc3_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("dmu", "nc3-mc")
 }
 
 // Vehicle
-spriteset (spriteset_nc3_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nc3_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "nc3-mc")
 }
-spriteset (spriteset_nc3_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nc3_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("dmu", "nc3-t")
 }
-spriteset (spriteset_nc3_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_nc3_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_11 ("dmu", "nc3-mc")
 }
 

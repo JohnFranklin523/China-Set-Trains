@@ -8,27 +8,27 @@ switch (FEAT_TRAINS, SELF, switch_tz_name, getbits(extra_callback_info1, 0, 8) =
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_tz_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_tz_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "tz")
 }
 
 // Vehicle
-spriteset (spriteset_tz_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_tz_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "tz")
 }
-spriteset (spriteset_tz_beijing2shanghai, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_tz_beijing2shanghai, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "tz-beijing2shanghai")
 }
-spriteset (spriteset_tz_beijing2shanghai_alternative, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_tz_beijing2shanghai_alternative, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "tz-beijing2shanghai-alternative")
 }
-spriteset (spriteset_tz_guangzhou, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_tz_guangzhou, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "tz-guangzhou")
 }
-spriteset (spriteset_tz_xianxing, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_tz_xianxing, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "tz-xianxing")
 }
-spriteset (spriteset_tz_alternative, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_tz_alternative, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "tz-alternative")
 }
 

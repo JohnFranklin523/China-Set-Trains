@@ -8,54 +8,54 @@ switch (FEAT_TRAINS, SELF, switch_kd25g_name, getbits(extra_callback_info1, 0, 8
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_kd25g_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches/25g", "kd25g")
 }
 
 // Vehicle
-spriteset (spriteset_kd25g_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g")
 }
-spriteset (spriteset_kd25g_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-green")
 }
-spriteset (spriteset_kd25g_luchaogang, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_luchaogang, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-luchaogang")
 }
-spriteset (spriteset_kd25g_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-orange")
 }
-spriteset (spriteset_kd25g_xihu, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_xihu, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-xihu")
 }
-spriteset (spriteset_kd25g_jinwen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_jinwen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-jinwen")
 }
-spriteset (spriteset_kd25g_jinwen_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_jinwen_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-jinwen-green")
 }
-spriteset (spriteset_kd25g_nanhu, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_nanhu, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-nanhu")
 }
-spriteset (spriteset_kd25g_25t, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_25t, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-25t")
 }
-spriteset (spriteset_kd25g_gmsr, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_gmsr, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-gmsr")
 }
-spriteset (spriteset_kd25g_gmsr_early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_gmsr_early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-gmsr-early")
 }
-spriteset (spriteset_kd25g_xiaoyong, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_xiaoyong, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-xiaoyong")
 }
-spriteset (spriteset_kd25g_hejiu, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_hejiu, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-hejiu")
 }
-spriteset (spriteset_kd25g_fulong, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_fulong, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-fulong")
 }
-spriteset (spriteset_kd25g_changsha, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_kd25g_changsha, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "kd25g-changsha")
 }
 

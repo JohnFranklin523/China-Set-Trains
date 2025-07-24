@@ -6,33 +6,33 @@ switch (FEAT_TRAINS, SELF, switch_yw25g_name, getbits(extra_callback_info1, 0, 8
 
 
 // Purchase Menu
-spriteset (spriteset_yw25g_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches/25g", "yw25g")
 }
 
 // Vehicle
-spriteset (spriteset_yw25g_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "yw25g")
 }
-spriteset (spriteset_yw25g_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "yw25g-green")
 }
-spriteset (spriteset_yw25g_jinwen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_jinwen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "yw25g-jinwen-1")
 }
-spriteset (spriteset_yw25g_jinwen_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_jinwen_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "yw25g-jinwen-green-1")
 }
-spriteset (spriteset_yw25g_gmsr, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_gmsr, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "yw25g-gmsr")
 }
-spriteset (spriteset_yw25g_gmsr_early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_gmsr_early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "yw25g-gmsr-early")
 }
-spriteset (spriteset_yw25g_hejiu, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_hejiu, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "yw25g-hejiu")
 }
-spriteset (spriteset_yw25g_fulong, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25g_fulong, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25g", "yw25g-fulong")
 }
 

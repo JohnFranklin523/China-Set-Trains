@@ -2,15 +2,15 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_crh2a4020_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh2a4020_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("25-emu/crh2a4020", "crh2a4020-c")
 }
 
 // Vehicle
-spriteset (spriteset_crh2a4020_middle_m, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh2a4020_middle_m, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh2a4020", "crh2a4020-m") 
 }
-spriteset (spriteset_crh2a4020_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_crh2a4020_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("25-emu/crh2a4020", "crh2a4020-c")
 }
 

@@ -6,16 +6,16 @@ switch (FEAT_TRAINS, SELF, switch_hxn5_name, getbits(extra_callback_info1, 0, 8)
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_hxn5_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_hxn5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "hxn5")
 }
 
 // Vehicle
-spriteset (spriteset_hxn5_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_hxn5_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "hxn5")
 }
 
-spriteset (spriteset_hxn5_reverse, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_hxn5_reverse, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_11 ("diesel", "hxn5")
 }
 

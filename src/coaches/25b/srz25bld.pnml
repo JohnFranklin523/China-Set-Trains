@@ -6,48 +6,48 @@ switch (FEAT_TRAINS, SELF, switch_srz25bld_name, getbits(extra_callback_info1, 0
 
 
 // Purchase Menu
-spriteset (spriteset_srz25bld_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "25b/srz25bld-red")
 }
 
 //Graphics
-spriteset (spriteset_srz25bld_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-red")
 }
-spriteset (spriteset_srz25bld_urumqi, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_urumqi, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-urumqi")
 }
-spriteset (spriteset_srz25bld_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-orange")
 }
-spriteset (spriteset_srz25bld_huhhot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_huhhot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-huhhot")
 }
-spriteset (spriteset_srz25bld_xianxing, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_xianxing, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-xianxing")
 }
-spriteset (spriteset_srz25bld_liaodong, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_liaodong, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-liaodong")
 }
-spriteset (spriteset_srz25bld_shenyang, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_shenyang, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-shenyang")
 }
-spriteset (spriteset_srz25bld_orangegrey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_orangegrey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-orangegrey")
 }
-spriteset (spriteset_srz25bld_orangeorange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_orangeorange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-orangeorange")
 }
-spriteset (spriteset_srz25bld_urumqi_white, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_urumqi_white, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-urumqi-white")
 }
-spriteset (spriteset_srz25bld_beidaihe, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_beidaihe, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-beidaihe")
 }
-spriteset (spriteset_srz25bld_ty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_ty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-ty")
 }
-spriteset (spriteset_srz25bld_zz, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bld_zz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bld-zz")
 }
 switch (FEAT_TRAINS, SELF, switch_srz25bld_articulated_part, extra_callback_info1) {

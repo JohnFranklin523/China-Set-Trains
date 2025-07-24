@@ -3,18 +3,18 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_beihai_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beihai_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("dmu", "nyj1-beihai-c")
 }
 
 // Vehicle
-spriteset (spriteset_beihai_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beihai_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "nyj1-beihai-c")
 }
-spriteset (spriteset_beihai_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beihai_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("dmu", "nyj1-beihai-t")
 }
-spriteset (spriteset_beihai_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_beihai_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed ("dmu", "nyj1-beihai-c")
 }
 

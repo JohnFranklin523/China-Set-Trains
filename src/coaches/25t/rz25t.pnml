@@ -9,30 +9,30 @@ switch (FEAT_TRAINS, SELF, switch_rz25t_name, getbits(extra_callback_info1, 0, 8
 
 // Purchase Menu
 // // Purchase Menu
-spriteset (spriteset_rz25t_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz25t_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "25t/rz25t")
 }
 
 // Vehicle
-spriteset (spriteset_rz25t_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz25t_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/rz25t")
 }
-spriteset (spriteset_rz25t_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz25t_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/rz25t-green")
 }
-spriteset (spriteset_bsprz25t_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_bsprz25t_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/bsprz25t")
 }
-spriteset (spriteset_bsprz25t_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_bsprz25t_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/bsprz25t-green")
 }
-spriteset (spriteset_rz25t_qingzang, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz25t_qingzang, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/rz25t-xz")
 }
-spriteset (spriteset_rz25t_hk, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz25t_hk, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/rz25t-hk")
 }
-spriteset (spriteset_rz25t_hk_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_rz25t_hk_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25t/rz25t-hk-green")
 }
 

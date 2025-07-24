@@ -6,28 +6,28 @@ switch (FEAT_TRAINS, SELF, switch_df7d3000_name, getbits(extra_callback_info1, 0
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_df7d3000_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df7d3000_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "df7d3000")
 }
 
 
 // Vehicle
-spriteset (spriteset_df7d3000, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df7d3000, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df7d3000")
 }
-spriteset (spriteset_df7d3000_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df7d3000_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("diesel", "df7d3000")
 }
-spriteset (spriteset_df7d3000_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df7d3000_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df7d3000-green")
 }
-spriteset (spriteset_df7d3000_green_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df7d3000_green_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("diesel", "df7d3000-green")
 }
-spriteset (spriteset_df7d3000_double_cab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df7d3000_double_cab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df7d3000-double-cab")
 }
-spriteset (spriteset_df7d3000_double_cab_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_df7d3000_double_cab_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_reversed_10 ("diesel", "df7d3000-double-cab")
 }
 

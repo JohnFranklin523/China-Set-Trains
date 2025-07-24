@@ -16,21 +16,21 @@ switch (FEAT_TRAINS, SELF, switch_yw25k_articulated_part, extra_callback_info1) 
 
 // Purchase Menu
 
-spriteset (spriteset_yw25k_purchase_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25k_purchase_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches/25k", "yw25k")
 }
 
 // Vehicle
-spriteset (spriteset_yw25k_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25k_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25k", "yw25k")
 }
-spriteset (spriteset_yw25k_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25k_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25k", "yw25k-green")
 }
-spriteset (spriteset_yw25k_gmsr, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25k_gmsr, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25k", "yw25k-gmsr")
 }
-spriteset (spriteset_yw25k_guangshen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_yw25k_guangshen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches/25k", "yw25k-guangshen")
 }
 

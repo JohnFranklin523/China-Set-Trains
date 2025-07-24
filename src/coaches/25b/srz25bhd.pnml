@@ -1,25 +1,25 @@
 //Begin SRZ25BHD
-spriteset (spriteset_srz25bhd_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bhd_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "25b/srz25bhd-dacheng")
 }
 
 //Graphics
-spriteset (spriteset_srz25bhd_dacheng, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bhd_dacheng, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bhd-dacheng")
 }
-spriteset (spriteset_srz25bhd_urumqi, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bhd_urumqi, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bhd-urumqi")
 }
-spriteset (spriteset_srz25bhd_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bhd_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bhd-orange")
 }
-spriteset (spriteset_srz25bhd_bj, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bhd_bj, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bhd-bj")
 }
-spriteset (spriteset_srz25bhd_hu, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bhd_hu, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bhd-hu")
 }
-spriteset (spriteset_srz25bhd_jinan, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25bhd_jinan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25b/srz25bhd-jinan")
 }
 

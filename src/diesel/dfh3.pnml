@@ -2,23 +2,23 @@
 
 // Graphics
 
-spriteset (spriteset_dfh3_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh3_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("diesel", "dfh3")
 }
 
-spriteset (spriteset_dfh3_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh3_original, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "dfh3")
 }
 
-spriteset (spriteset_dfh3_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh3_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "dfh3-red")
 }
 
-spriteset (spriteset_dfh3_gongqingtuan, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh3_gongqingtuan, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "dfh3-gongqingtuan")
 }
 
-spriteset (spriteset_dfh3_liaodong, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_dfh3_liaodong, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "dfh3-liaodong")
 }
 

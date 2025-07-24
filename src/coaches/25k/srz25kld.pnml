@@ -2,12 +2,12 @@
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_srz25kld_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25kld_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("coaches", "25k/srz25kld-luchaogang")
 }
 
 // Vehicle
-spriteset (spriteset_srz25kld_luchaogang, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_srz25kld_luchaogang, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("coaches", "25k/srz25kld-luchaogang")
 }
 

@@ -8,92 +8,92 @@ switch (FEAT_TRAINS, SELF, switch_c80_name, getbits(extra_callback_info1, 0, 8) 
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_c80_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_purchase ("wagons/c80", "c80-white-lead")
 }
 
 // Vehicle
-spriteset (spriteset_c80_black_lead_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_lead_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-lead")
 }
-spriteset (spriteset_c80_black_lead_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_lead_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-lead-half")
 }
-spriteset (spriteset_c80_black_lead_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_lead_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-lead-full")
 }
-spriteset (spriteset_c80_black_middle_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_middle_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-middle")
 }
-spriteset (spriteset_c80_black_middle_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_middle_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-middle-half")
 }
-spriteset (spriteset_c80_black_middle_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_middle_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-middle-full")
 }
-spriteset (spriteset_c80_black_rear_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_rear_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-rear")
 }
-spriteset (spriteset_c80_black_rear_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_rear_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-rear-half")
 }
-spriteset (spriteset_c80_black_rear_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_black_rear_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-black-rear-full")
 }
 
-spriteset (spriteset_c80_blue_lead_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_lead_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-lead")
 }
-spriteset (spriteset_c80_blue_lead_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_lead_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-lead-half")
 }
-spriteset (spriteset_c80_blue_lead_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_lead_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-lead-full")
 }
-spriteset (spriteset_c80_blue_middle_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_middle_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-middle")
 }
-spriteset (spriteset_c80_blue_middle_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_middle_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-middle-half")
 }
-spriteset (spriteset_c80_blue_middle_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_middle_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-middle-full")
 }
-spriteset (spriteset_c80_blue_rear_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_rear_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-rear")
 }
-spriteset (spriteset_c80_blue_rear_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_rear_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-rear-half")
 }
-spriteset (spriteset_c80_blue_rear_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_blue_rear_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-blue-rear-full")
 }
 
-spriteset (spriteset_c80_white_lead_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_lead_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-lead")
 }
-spriteset (spriteset_c80_white_lead_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_lead_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-lead-half")
 }
-spriteset (spriteset_c80_white_lead_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_lead_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-lead-full")
 }
-spriteset (spriteset_c80_white_middle_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_middle_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-middle")
 }
-spriteset (spriteset_c80_white_middle_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_middle_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-middle-half")
 }
-spriteset (spriteset_c80_white_middle_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_middle_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-middle-full")
 }
-spriteset (spriteset_c80_white_rear_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_rear_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-rear")
 }
-spriteset (spriteset_c80_white_rear_half, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_rear_half, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-rear-half")
 }
-spriteset (spriteset_c80_white_rear_full, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+spriteset (spriteset_c80_white_rear_full, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP) {
     template_standard ("wagons/c80", "c80-white-rear-full")
 }
 

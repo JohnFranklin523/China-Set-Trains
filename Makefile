@@ -25,11 +25,11 @@ LANG_SRC    ?= docs/str.csv
 # code
 NMLC ?= nmlc -c
 GCC  ?= gcc
-PROJECT ?= chinasettrains
+PROJECT ?= chinasettrains-pixelated
 DOC_FILES ?= license.txt readme.txt changelog.txt
 INDEX_FILE ?= chinasettrains.pnml
 OUTPUT_NML ?= chinasettrains.nml
-OUTPUT_GRF ?= chinasettrains.grf
+OUTPUT_GRF ?= chinasettrains-pixelated.grf
 CUSTOM_TAG_FILE ?= custom_tags.txt
 
 # version
