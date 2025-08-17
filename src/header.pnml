@@ -1,5 +1,5 @@
 grf {
-    grfid:   "\5F\5F\03\00";
+    grfid:   "\5F\5F\03\10";
     name:    string(STR_GRF_NAME);
     desc:    string(STR_DESC_4, string(STR_GRF_DESC), string(STR_GRF_DESC_EXTRA), string(STR_GRF_DESC_README), string(STR_GRF_DESC_4));
     url:     string(STR_GRF_URL);
